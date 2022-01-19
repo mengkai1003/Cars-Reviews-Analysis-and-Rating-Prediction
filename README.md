@@ -1,7 +1,8 @@
-# ISE540FinalProject_4Drivers
-This is the repository for the final project for ISE 540 of group 4 Drivers. It includes the code and the datasets for cars reviews analysis and rating prediction
-
 ## Cars Review Analysis and Rating Prediction 
+
+The goal of this project was to determine the factors that car consumers care about most during the purchase process, the importance level of those factors and how they affect the overall rating of the car. Since we know that the car buying/selling market in the US is very big and important, and that the choice of getting one car over the other is not an easy one, we thought that this problem was worth solving, not only for the car buyers, but also for the manufacturers and dealerships. The insights driven from this project would help them understand what factors determine the customer decision and will provide them a centralized summary of these aspects. Furthermore, the project aimed to build a Rating Prediction System based on these factors and achieve a reliable performance in predicting the overall rating of a car.
+
+We started by collecting the necessary data. There are many car review’s websites on the internet but one of the most complete and trustworthy is www.edmunds.com. We scraped a total of 27,647 car reviews from different models, years and manufacturers. Each observation consisted of the car type, make, model, year, an overall 5 star rating (outcome variable), a text review/verbatim and 7 car aspect 5 star rating including Safety, Technology, Performance, Interior, Comfort, Reliability and Value. After initial inspection of the dataset, we carried out some data cleaning and processing procedures, that included excluding the really long reviews (over 400 words of length), filtering out reviews that were not in english and removing duplicated reviews. The reason behind the first step is that we found that the majority of the reviews that were too long, were most of the times irrelevant, containing personal anecdotes and no objective review of the car. Since we considered that the amount of reviews was already sufficient and for the sake of simplicity and irrelevancy, we decided to exclude this subset of reviews. Thus we ended with 18,449 observations (a 33% size reduction) which we consider to be a reasonably good size.
 
 CODE SCRIPTS
 
